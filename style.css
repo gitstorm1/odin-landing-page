@@ -13,7 +13,7 @@ a {
 }
 
 .first {
-    height: 400px;
+    min-height: 400px;
     
     color: #F9FAF8;
     background-color: #1F2937;
