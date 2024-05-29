@@ -76,3 +76,43 @@ button {
 
     margin: auto 0;
 }
+
+
+.second {
+    min-height: 420px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second p {
+    color: #373c44;
+}
+
+.second img {
+    width: 150px;
+    height: 150px;
+
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.second > h3 {
+    color: #1F2937;
+
+    font-size: 36px;
+    font-weight: 800;
+
+    margin: 36px 0;
+}
+
+.second > .images {
+    display: flex;
+    gap: 32px;
+}
+
+.second > .images > .image {
+    max-width: 150px;
+    text-align: center;
+}
